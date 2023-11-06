@@ -1,0 +1,89 @@
+body{
+    font-size: 30px;
+    padding: 0;
+    margin: 0 auto;
+
+}
+.container{
+    width: 100%;
+    max-width: 1150px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+h1{
+    font-size: 100px;
+    color: blue;
+    text-align: center;
+   
+}
+
+thead tr th {
+    background-color: brown;
+    color: #fff;
+    padding: 15px;
+    /* padding: Dùng để chỉnh phần chiều rộng của hàng tiêu đề  */
+
+}
+
+tbody tr td {
+    color: red;
+    border: solid blue 1px;
+
+}
+
+table {
+    border-spacing: 0;
+    border: solid 1px blue;
+    /* solid: gạch liền 
+        Dash: gạch đứt */
+    width: 100%;
+    text-align: center;
+}
+
+/* class: dùng dấu: chấm . */
+/* ID dùng dấu: thăng # */
+.avatar{
+    width: 80px;
+    height: 60px;
+}
+.text-center { 
+    text-align: center;
+    /* text-align: căn lề , center giữa,... */
+}
+.text-right{
+    text-align: right;
+}
+tbody tr:hover{
+    /* Tạo kích chuột có màu */
+    background-color: bisque;
+    cursor: pointer;
+    /* chọn vào button chuột hiện màu  */
+}
+.btn-outline-secondary{
+    border-radius: 5px;
+    /* bo cong button */
+    padding: 10px 15px;
+    border: solid 1px #d1d1d1;
+    background-color: transparent;
+ 
+  
+}
+.btn-outline-secondary:hover{
+    /* :hover : có : hover dùng để quy định màu sắc của hành động   */
+    background-color: #fff;
+    color: black;
+    cursor: pointer;
+}
+.btn-outline-danger{
+    border-radius: 5px;
+    /* bo cong button */
+    padding: 10px 15px;
+    border: solid 1px red;
+    background-color: transparent;
+}
+.btn-outline-danger:hover{
+    background-color: red;
+    color: #fff;
+    cursor: pointer;
+}
